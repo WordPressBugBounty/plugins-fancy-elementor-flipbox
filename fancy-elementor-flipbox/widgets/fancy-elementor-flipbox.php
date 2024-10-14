@@ -726,8 +726,8 @@ $this->end_controls_section();
 		$html .= '</div>';
 		$this->add_inline_editing_attributes('title_text_front', 'none');
 		$this->add_render_attribute('title_text_front', 'class', 'tp-flipbox__title-front');
-		$title_back_html = esc_html($settings['tp_flipbox_f_title']);
-		$html .= sprintf('<%1$s %2$s>%3$s</%1$s>', Utils::validate_html_tag($settings['title_tag']), $this->get_render_attribute_string('title_text_front'), $title_back_html);
+		$title_front_html = $settings['tp_flipbox_f_title'];
+		$html .= sprintf('<%1$s %2$s>%3$s</%1$s>', Utils::validate_html_tag($settings['title_tag']), $this->get_render_attribute_string('title_text_front'), $title_front_html);
 		
 		$this->add_render_attribute( 'description_front_text', 'class', 'tp-flipbox__desc-back' );
 		$html .= sprintf( '<%1$s %2$s>%3$s</%1$s>', Utils::validate_html_tag($settings['content_tag']), $this->get_render_attribute_string( 'description_front_text' ), $settings['tp_flipbox_f_desc'] );
@@ -748,7 +748,7 @@ $this->end_controls_section();
 	
 		$this->add_inline_editing_attributes('title_text', 'none');
 		$this->add_render_attribute('title_text', 'class', 'tp-flipbox__title-back');
-		$title_back_html = esc_html($settings['tp_flipbox_b_title']);
+		$title_back_html = $settings['tp_flipbox_b_title'];
 		$html .= sprintf('<%1$s %2$s>%3$s</%1$s>', Utils::validate_html_tag($settings['title_tag']), $this->get_render_attribute_string('title_text'), $title_back_html);
 		
 		$this->add_render_attribute( 'description_back_text', 'class', 'tp-flipbox__desc-back' );

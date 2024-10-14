@@ -11,7 +11,7 @@ License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Plugin URI: https://themeprix.com/fancy-elementor-flipbox/
 Author URI: https://themeprix.com/
-Stable tag: 2.6.0
+Stable tag: 2.6.1
 
 Create flip box and 6 more effects with front and back side options
 
