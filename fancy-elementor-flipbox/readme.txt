@@ -5,7 +5,7 @@ Description: create flip box and 6 more effects with front and back side
 Short Description: create flip box and 6 more effects with front and back side
 Donate link: https://themeprix.com/donate
 Requires at least: 4.0
-Tested up to: 6.6
+Tested up to: 6.8
 Requires PHP: 7.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
